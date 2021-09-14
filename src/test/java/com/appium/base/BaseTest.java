@@ -34,10 +34,10 @@ public class BaseTest {
         service = AppiumDriverLocalService.buildDefaultService();
         service.start();
         //Start Android Tests
-            // androidCaps();
+             androidCaps();
 
        //Start iOS Tests
-            iosCaps();
+//            iosCaps();
 
     }
 
